@@ -1,0 +1,260 @@
+/* This is an example of style*/
+/*b{
+    color:chartreuse;
+}*/
+html{
+    font-family: "helveltica", "Arial", sans-serif;
+}
+body{
+    background-color:#ffffff;
+    margin: 0;
+}
+p{
+    color:#5d6660;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "helveltica", "Arial", sans-serif;
+}
+header{
+    height: 80px;
+    background-color: #ffffff;
+}
+#header-container{
+    margin: auto;
+    width: 70%;
+}
+.col-3{
+    width: 33%;
+    background-color: white;
+    float: left;
+   /* padding:8px;*/
+}
+.logo{
+    padding-top: 30px;
+}
+.menu{
+    margin-top: 32px;
+}
+.menu li{
+    list-style-type:none;
+    display: inline;
+    font-size: .85em;
+    color: #8e8e8e;
+    padding-right: 30px;
+}
+.getstartedBTN{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #6dc77a;
+    -moz-border-radius:28px;
+    -webkit-border-radius:28px;
+    margin-top: 20px;
+    padding: 10px 26px;
+    display: inline-block;
+    float:right;
+}
+#top-section-main{
+    background-image: url(Images/friends.jpg);
+    border: none;
+    /*margin-top: 0px;*/
+    height: 740px;
+}
+#top-section-content{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+#top-section-content h1{
+    font-size: 4em;
+    margin-top: 0;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 15px;
+}
+#top-section-content p{
+    font-size: 1.3em;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+.playbutton{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding:50px 0 100px 0;
+}
+.main-form{
+    align-items: center;
+    text-align: center;
+}
+.main-form h6{
+    text-align: center;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    color: #ffffff;
+    font-weight: 100;
+}
+.main-form input{
+    border: none;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: sans-serif;
+    /*background-color: #ffffff;*/
+    margin:0;
+    width: 22%;
+    height: 40px;
+}
+.main-form button{
+    border: none;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: sans-serif;
+    background-color: #6dc77a;
+    color:#ffffff;
+    margin:0;
+    width: 22%;
+     height: 42px;
+}
+#feature-section h1{
+    padding: 100px;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    font-weight: 100;
+}
+.feature-content{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.feature-content .col-3{
+    width: 30%;
+    padding: 10px;
+}
+.feature-content .col-3 p{
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+.feature-content .col-3 h2{
+    font-size: 1.3em;
+}
+.feature-content .col-3 img{
+    width: 100%;
+}
+.showcase{
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+}
+#showcase-container{
+    padding-top: 60px;
+    background-color: #f6f8fa;
+    width: 100%;
+    clear: both;
+}
+.showcase-extra .col-21{
+    padding-top: 300px;
+    padding-left: 50px;
+}
+.showcase-pic{
+    width: 100%;
+    
+}
+ .col-2{
+    float: left;
+    width: 48%;
+}
+.showcase-title{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 15px;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+.showcase-left{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.showcase-container1{
+    padding: 0 0 0 0;
+}
+.col-21{
+    width: 40%;
+    float:left;
+    text-align: left;
+}
+#contact-section-main{
+    background-image: url(Images/darkdesk.png);
+    border: none;
+    width: 80%;
+    margin: auto;
+    /*margin-top: 0px;*/
+    height: 400px;
+}
+#contact-section-content{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+#contact-section-content h1{
+    font-size: 4em;
+    margin-top: 0;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 15px;
+}
+#contact-section-content p{
+    font-size: 1.3em;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.contact-form{
+    align-items: center;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.contact-form button{
+    border: none;
+    padding-left: 15px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: sans-serif;
+    background-color: #6dc77a;
+    color:#ffffff;
+    text-decoration: none;
+    margin-bottom: 25px;
+    width: 30%;
+     height: 50px;
+}
+.linktype{
+    color:#ffffff;
+    text-decoration: none;
+}
+#startup-container{
+    width: 80%;
+    background-color: #ffffff;
+    margin: auto;
+}
+.col-22{
+    width: 48%;
+    float: left;
+    margin: auto;
+}
+.linktype1{
+    color:#ffffff;
+    background-color: green;
+    /*text-decoration: none;*/
+}
